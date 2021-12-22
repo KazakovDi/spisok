@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to bottom, rgb(56, 107, 247), rgb(43, 13, 177));
+    height: 100vh;
+}
+h1 {
+    color:#fff;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+form {
+    display:flex;
+    justify-content: center;
+}
+#input {
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+}
+.submit {
+    background-color:rgb(248, 205, 85);
+    color:#111;
+    cursor:pointer;
+}
+select {
+    padding: 0.25rem;
+    margin-left: 16px;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    appearance: none;
+    box-shadow: none;
+    cursor:pointer;
+}
+button {
+    background-color: #fff;
+    outline: none;
+    border: none;
+}
+.list-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list {
+    list-style:none;
+    min-width:30%;
+}
+.list_Item {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0.5rem;
+    padding-left: 6px;
+    transition: all 0.3s ease;
+}
+.list_Item li {
+    flex:1;
+}
+.fa-check, .fa-trash {
+    pointer-events: none;
+    color:#fff;
+    padding: 0.8rem;
+}
+.list_Item button {
+    padding:0;
+    cursor: pointer;
+}
+.fa-check {
+    background-color: green;
+}
+.fa-trash {
+    background-color: #df8e26;
+}
+.check_Btn {
+    color:#fff;
+}
+.trash_Btn {
+    color:#fff;
+}
+.complete {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.fall {
+    transform: translateY(30px);
+    opacity:0;
+}
